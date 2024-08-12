@@ -1,0 +1,52 @@
+.body{
+    margin-top: 30px;
+}
+.main-img-contener{
+    display: inline-block;
+    position: static;
+   
+
+}
+.main-img{
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 20px;
+    height: 500px;
+    width: auto;
+}
+.img-contener{
+    display: inline-block;
+    margin-top: 30px;    
+   
+}
+.img{
+    display: flex;
+    flex-direction: column-reverse;    
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 75px;
+    margin: 10px;
+    width: auto;
+}
+
+.img:hover{
+    display: flex;
+    flex-direction: column-reverse;    
+    border: solid 1px black ;
+    box-shadow: 0px 0px 30px -7px rgb(0, 234, 101);
+    border-radius: 10px;
+    height: 74px;
+    margin: 11px;
+    width: auto;
+    cursor: pointer;
+    transition: 0.03s;
+}
+.main-img:hover{
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px -7px rgb(0, 234, 101);
+    margin: 20px;
+    height: 500px;
+    width: auto;
+    cursor: pointer;
+}
